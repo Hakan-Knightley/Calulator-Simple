@@ -42,7 +42,6 @@ def Set_Operation(words,characters):
 
 def Do_Operation(number,operation):
     result=(str(number[0])+operation+str(number[1]))
-    result= result.replace("'"," ")
     try:
         eval(result)
     except:
