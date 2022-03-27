@@ -32,7 +32,7 @@ def Set_Operation(words,characters):
     choice=" "
     print("Select which operation you would like to do:")
     for i in words:
-        print(str(count+1)+":",words[count],"\n")
+        print(str(count+1)+":",i,"\n")
         count+=1
     while choice.isnumeric() == False or (choice.isnumeric() == True and (int(choice)< 1 or int(choice) > 4)):
         choice=str(input("Enter a number from 1 to 4"))
